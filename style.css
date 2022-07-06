@@ -14,7 +14,7 @@ h2 {
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 26px;
 }
 
 #first-section-heading {
@@ -23,7 +23,7 @@ h3 {
 
 p {
     font-size: 17px;
-    color: gray;
+    color: rgb(116, 110, 110);
 }
 
 #first-section-p {
@@ -34,6 +34,7 @@ section {
     text-align: center;
     background-repeat: no-repeat;
     background-size: 100%;
+    margin-bottom: 10%;
 }
 
 .first-section {
@@ -84,7 +85,7 @@ section {
     background-color: rgba(250, 235, 215, 0.479);
 }
 
-.donate-input {
+.donate-amount-input {
     border: none;
     font-size: 20px;
     color: gray;
@@ -94,4 +95,35 @@ section {
 hr.solid {
     border-top: 1px solid #bbb;
     width: 65%;
+}
+
+.mainbox-of-donate-plan-items {
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.donate-plan-item {
+    margin: 1%;
+    padding: 10% 2% 5%;
+    background-position: 7% 20%;
+    text-align: left;
+}
+
+#donate-plan-item-1 {
+    background-image: url(images/food.png);
+    background-color: rgba(217, 239, 250, 0.548);
+    background-repeat: no-repeat;
+}
+
+#donate-plan-item-2 {
+    background-image: url(images/shelter.png);
+    background-color: rgba(255, 248, 220, 0.644);
+    background-repeat: no-repeat;
+}
+
+#donate-plan-item-3 {
+    background-image: url(images/Frame-1.png);
+    background-color: rgba(255, 228, 196, 0.685);
+    background-repeat: no-repeat;
 }
