@@ -128,6 +128,26 @@ hr.solid {
     background-repeat: no-repeat;
 }
 
+#about-us-section {
+    display: flex;
+    padding: 5% 5% 1px;
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+}
+
+#about-us-section div {
+    width: 50%;
+    text-align: justify;
+}
+
+#about-us-section img {
+    height: 500px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 
 form {
     background-color: rgba(255, 228, 196, 0.685);
